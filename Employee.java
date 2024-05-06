@@ -60,7 +60,7 @@ class Developer extends Employee {
 
 class EmployeeApp {
     public static void main(String[] args) {
-        printInfo(new Manager("Amba", "Senior", 9_000_000, "Keuangan"));
+        printInfo(new Manager("Ambatukam", "Senior", 9_000_000, "Keuangan"));
         printInfo(new Developer("Fuad", "Fresh Graduate", 6_000_000, "Assembly"));
 
     }
